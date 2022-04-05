@@ -47,8 +47,6 @@ namespace CalculadoraIMC
                 double pesoNecessario = ((altura * altura) * 18.5) - peso;
                 Console.WriteLine("Você precisa engordar {0} quilos para chegar ao IMC ideal.", pesoNecessario);
             }
-            else if(imc < 25){
-            }
             else{
                 double pesoNecessario = peso - ((altura * altura) * 24.99);
                 Console.WriteLine("Você precisa emagrecer {0} quilos para chegar ao IMC ideal.", pesoNecessario);
